@@ -1,0 +1,7 @@
+.nav.nav-center {
+    margin-left: 41.5%;
+    float:none;
+    text-align:center;
+    font-family: 'Sansita', sans-serif; /* to the body use font-family: 'Montserrat', sans-serif; */
+    font-size: 2em;
+}
