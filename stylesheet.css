@@ -2,6 +2,66 @@
     margin-left: 41.5%;
     float:none;
     text-align:center;
-    font-family: 'Sansita', sans-serif; /* to the body use font-family: 'Montserrat', sans-serif; */
+    font-family: 'Sansita', sans-serif;
     font-size: 2em;
+}
+
+.offline-channel {
+  padding: 5%;
+  background-color: #B33C86;
+  color: white;
+}
+
+.online-channel {
+  padding: 5%;
+  background-color: #136F63;
+  color: white;
+}
+
+.channel-div {
+  padding: 5%;
+  margin-bottom: 0;
+  margin-top: 0;
+  border-top: dashed 1px white;
+  border-left: dashed 1px white;
+  border-right: dashed 1px white;
+}
+
+.channel-div:last-child {
+  border-bottom: dashed 1px white;
+}
+
+a, a:hover, a:visited {
+  color: black;
+}
+
+img {
+  border-radius: 25%;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.streaming, .id-div {
+  display: inline-block;
+}
+
+.streaming {
+  margin: 0 0 0 9%
+}
+
+.name {
+  margin-top: 5%;
+  text-align: center;
+}
+
+#all, #online, #offline {
+  padding: 5%;
+}
+
+#display {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #4B88A2;
 }
